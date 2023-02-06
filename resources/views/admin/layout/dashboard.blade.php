@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/806333159f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     {{-- nav bar --}}
-    <div class="container-fluid d-flex border-bottom position-sticky top-0  " style="height:58px ">
+    <div class="container-fluid bg-light d-flex border-bottom position-sticky top-0" style="height:58px ">
           <div class="col-2">
               <img src="{{ asset('logo/logo.png') }}" class="col-12" style="height: 100%" alt="">
           </div>
@@ -32,83 +33,85 @@
                <a href="" class="text-decoration-none text-dark">Setting</a>
              </div>
           </div>
-    </div>
-    {{-- nav bar end --}}
-    
-    
-    <div class="col-2 position-fixed bg-dark overflow-scroll"   style="height:610px" >
-      <div class=" pt-3 pb-2 ms-3 border-bottom container-fluid mb-2">
-         <a href="" class="text-light text-decoration-none ms-4 fw-bolder"><i class="fa-solid fa-bars me-3"></i>Contrast</a>
-      </div>
-      <div class="">
-          <div class=" p-2">
-              <a href="" class="container-fluid btn btn-outline-info btn-sm text-light text-decoration-none ">
-                   <i class="fa-brands fa-microsoft me-2"></i>Accordion
-              </a>
-           </div>
-           <div class=" p-2">
-              <a href="" class="container-fluid  btn btn-outline-info btn-sm  text-light text-decoration-none ">
-               <i class="fa-solid fa-user-clock me-2"></i>Alert
-              </a>
-           </div>
-           <div class=" p-2">
+   </div>
+   {{-- nav bar end --}}
+   <div class=" w-100 col-12 d-flex position-fixed">
+      <div class="col-2 row-10  bg-dark overflow-scroll">
+         <div class=" pt-3 pb-2 ms-3 border-bottom container-fluid mb-2">
+            <a href="" class="text-light text-decoration-none ms-4 fw-bolder"><i class="fa-solid fa-bars me-3"></i>Contrast</a>
+         </div>
+         <div class="">
+            <div class=" p-2">
+                 <a href="" class="container-fluid btn btn-outline-info btn-sm text-light text-decoration-none ">
+                      <i class="fa-brands fa-microsoft me-2"></i>Accordion
+                 </a>
+            </div>
+            <div class=" p-2">
                <a href="" class="container-fluid  btn btn-outline-info btn-sm  text-light text-decoration-none ">
-                   <i class="fa-solid fa-radiation me-2"></i>Animation
+                  <i class="fa-solid fa-user-clock me-2"></i>Alert
                </a>
-           </div>
-           <div class=" p-2">
+            </div>
+            <div class=" p-2">
+               <a href="" class="container-fluid  btn btn-outline-info btn-sm  text-light text-decoration-none ">
+                     <i class="fa-solid fa-radiation me-2"></i>Animation
+               </a>
+            </div>
+            <div class=" p-2">
                <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-wand-magic-sparkles me-2"></i>Autocomplete
+                     <i class="fa-solid fa-wand-magic-sparkles me-2"></i>Autocomplete
                </a>
-           </div>
-           <div class="p-2">
+            </div>
+            <div class="p-2">
                <a href="" class="container-fluid  btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-certificate me-2"></i><label class="ms-2" for=""> Badge</label>
+                     <i class="fa-solid fa-certificate me-2"></i><label class="ms-2" for=""> Badge</label>
                </a>
-           </div>
-           <div class="p-2">
+            </div>
+            <div class="p-2">
                <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none ">
-                   <i class="fa-solid fa-box me-2 "></i><label class="ms-2" for="">Box</label>
+                     <i class="fa-solid fa-box me-2 "></i><label class="ms-2" for="">Box</label>
                </a>
-           </div>
-           <div class=" p-2">
+              </div>
+            <div class=" p-2">
                <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-route me-2"></i>Breadcump
+                     <i class="fa-solid fa-route me-2"></i>Breadcump
                </a>
-           </div>
-           <div class=" p-2">
-               <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-computer-mouse me-2"></i>Button
-               </a>
-           </div>
-           <div class="p-2">
-               <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-computer-mouse me-2"></i>Button Group
-               </a>
-           </div>
-           <div class=" p-2">
-               <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-computer-mouse me-2"></i>Button Toolbar
-               </a>
-           </div>
-           <div class=" p-2">
-               <a href="" class="container-fluid  btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-address-card me-2"></i>Card
-               </a>
-           </div>
-           <div class="p-2">
-               <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
-                   <i class="fa-solid fa-sliders me-2"></i>Carousel
-               </a>
-           </div>
-           <div class="p-2">
-               <a href="" class="container-fluid btn btn-outline-info btn-sm text-light text-decoration-none">
-                   <i class="fa-solid fa-check me-2"></i>Checkbox
-               </a>
-           </div>
-           
+            </div>
+              <div class=" p-2">
+                  <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
+                      <i class="fa-solid fa-computer-mouse me-2"></i>Button
+                  </a>
+              </div>
+              <div class="p-2">
+                  <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
+                      <i class="fa-solid fa-computer-mouse me-2"></i>Button Group
+                  </a>
+              </div>
+              <div class=" p-2">
+                  <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
+                      <i class="fa-solid fa-computer-mouse me-2"></i>Button Toolbar
+                  </a>
+              </div>
+              <div class=" p-2">
+                  <a href="" class="container-fluid  btn btn-outline-info btn-sm  text-light text-decoration-none">
+                      <i class="fa-solid fa-address-card me-2"></i>Card
+                  </a>
+              </div>
+              <div class="p-2">
+                  <a href="" class="container-fluid btn btn-outline-info btn-sm  text-light text-decoration-none">
+                      <i class="fa-solid fa-sliders me-2"></i>Carousel
+                  </a>
+              </div>
+              <div class="p-2">
+                  <a href="" class="container-fluid btn btn-outline-info btn-sm text-light text-decoration-none">
+                      <i class="fa-solid fa-check me-2"></i>Checkbox
+                  </a>
+              </div>       
+         </div>
       </div>
-      
-  </div>
+            @yield('content')
+   </div>
+   
+   
+
 </body>
 </html>

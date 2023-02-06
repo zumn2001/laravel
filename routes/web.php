@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
 
 
 /*
@@ -15,10 +17,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/admin',function(){
-    return view('admin.layout.dashboard');
-});
-
-Route::get('/admin/categories',function(){
-    return view('admin.categories.create');
-});
+Route::resource('/categories', CategoryController::class);
